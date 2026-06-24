@@ -1,0 +1,537 @@
+backend:
+  name: github
+  repo: Digital-Age1/Assured-Restoration
+  branch: CMS
+  # Production OAuth proxy:
+  # base_url: https://YOUR-OAUTH-PROXY-DOMAIN
+  # auth_endpoint: auth
+
+local_backend: true
+
+site_url: "/"
+display_url: "/"
+logo_url: "/uploads/assured-restoration/assured-restoration-amp-remodeling-llc.jpg"
+
+media_folder: "public/uploads/assured-restoration"
+public_folder: "/uploads/assured-restoration"
+
+editor:
+  preview: false
+
+collections:
+  - name: "site_settings"
+    label: "Site Settings"
+    files:
+      - label: "Site Settings"
+        name: "site_settings"
+        file: "src/content/site-settings.json"
+        format: "json"
+        fields:
+          - { label: "Company Name", name: "company_name", widget: "string" }
+          - { label: "Slogan", name: "slogan", widget: "string" }
+          - { label: "Phone", name: "phone", widget: "string" }
+          - { label: "Phone Link", name: "phone_href", widget: "string", required: false }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Address", name: "address", widget: "string" }
+          - { label: "Google Maps Link", name: "google_maps_link", widget: "string" }
+          - { label: "Google Maps Embed", name: "google_maps_embed", widget: "string", required: false }
+          - { label: "Logo", name: "logo", widget: "image" }
+          - { label: "Footer Description", name: "footer_description", widget: "text" }
+          - label: "Social Links"
+            name: "social_links"
+            widget: "list"
+            summary: "{{fields.label}}"
+            fields:
+              - { label: "Label", name: "label", widget: "string" }
+              - { label: "Icon Class", name: "icon", widget: "string" }
+              - { label: "URL", name: "url", widget: "string" }
+          - { label: "Copyright Text", name: "copyright_text", widget: "string" }
+          - { label: "Emergency Service Text", name: "emergency_service_text", widget: "string" }
+          - label: "Business Badges"
+            name: "business_badges"
+            widget: "list"
+            field: { label: "Badge", name: "badge", widget: "string" }
+          - { label: "Google Reviews Link", name: "google_reviews_link", widget: "string", required: false }
+          - { label: "Indeed Link", name: "indeed_link", widget: "string", required: false }
+
+  - name: "homepage"
+    label: "Homepage"
+    files:
+      - label: "Homepage"
+        name: "homepage"
+        file: "src/content/homepage.json"
+        format: "json"
+        fields:
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Image Alt", name: "alt", widget: "string" }
+              - label: "Headline Lines"
+                name: "headline_lines"
+                widget: "list"
+                field: { label: "Line", name: "line", widget: "string" }
+              - { label: "Highlighted Text", name: "highlighted_text", widget: "string" }
+              - { label: "Tagline", name: "tagline", widget: "string" }
+              - { label: "Subheadline", name: "subheadline", widget: "text" }
+              - { label: "Primary Button Text", name: "primary_button_text", widget: "string" }
+              - { label: "Primary Button Link", name: "primary_button_link", widget: "string" }
+              - { label: "Secondary Button Text", name: "secondary_button_text", widget: "string" }
+              - { label: "Secondary Button Link", name: "secondary_button_link", widget: "string" }
+          - label: "Trust Badges"
+            name: "trust_badges"
+            widget: "list"
+            fields:
+              - { label: "Icon Class", name: "icon", widget: "string" }
+              - { label: "Label", name: "label", widget: "string" }
+          - label: "Trust Bar"
+            name: "trust_bar"
+            widget: "list"
+            fields:
+              - { label: "Icon Class", name: "icon", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Subtitle", name: "subtitle", widget: "string" }
+              - { label: "Gold", name: "gold", widget: "boolean", required: false }
+          - label: "Services Preview"
+            name: "services_preview"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Button Text", name: "button_text", widget: "string" }
+              - { label: "Button Link", name: "button_link", widget: "string" }
+          - label: "Why Assured"
+            name: "why_assured"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Image Alt", name: "image_alt", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - label: "Features"
+                name: "features"
+                widget: "list"
+                fields:
+                  - { label: "Icon Class", name: "icon", widget: "string" }
+                  - { label: "Label", name: "label", widget: "string" }
+              - { label: "Button Text", name: "button_text", widget: "string" }
+              - { label: "Button Link", name: "button_link", widget: "string" }
+          - label: "Process Steps"
+            name: "process_steps"
+            widget: "list"
+            fields:
+              - { label: "Number", name: "number", widget: "string" }
+              - { label: "Icon Class", name: "icon", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+              - { label: "Image", name: "image", widget: "image" }
+          - label: "Why Choose Us"
+            name: "why_choose_us"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Image Alt", name: "image_alt", widget: "string" }
+              - { label: "Stat Value", name: "stat_value", widget: "string" }
+              - { label: "Stat Label", name: "stat_label", widget: "string" }
+              - { label: "Stat Subtitle", name: "stat_subtitle", widget: "string" }
+              - label: "Reasons"
+                name: "reasons"
+                widget: "list"
+                fields:
+                  - { label: "Icon Class", name: "icon", widget: "string" }
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Description", name: "desc", widget: "text" }
+          - label: "Service Areas Preview"
+            name: "service_areas_preview"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Call Button Text", name: "call_button_text", widget: "string" }
+              - { label: "Directions Button Text", name: "directions_button_text", widget: "string" }
+          - label: "Testimonials Preview"
+            name: "testimonials_preview"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Rating", name: "rating", widget: "string" }
+              - { label: "Review Count Text", name: "review_count_text", widget: "string" }
+              - { label: "Review CTA Text", name: "cta_review_text", widget: "string" }
+              - { label: "Call CTA Text", name: "cta_call_text", widget: "string" }
+          - label: "FAQ Preview"
+            name: "faq_preview"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+          - label: "Final CTA"
+            name: "final_cta"
+            widget: "object"
+            fields:
+              - { label: "Background Image", name: "background_image", widget: "image" }
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Highlighted Text", name: "highlighted_text", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Call Label", name: "call_label", widget: "string" }
+              - { label: "Email Label", name: "email_label", widget: "string" }
+              - { label: "Location Label", name: "location_label", widget: "string" }
+              - { label: "Button Text", name: "button_text", widget: "string" }
+              - { label: "Success Heading", name: "success_heading", widget: "string" }
+              - { label: "Success Text", name: "success_text", widget: "text" }
+          - label: "Contact Form Content"
+            name: "contact_form_content"
+            widget: "object"
+            fields:
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - label: "Fields"
+                name: "fields"
+                widget: "list"
+                field: { label: "Field", name: "field", widget: "string" }
+              - { label: "Submit Text", name: "submit_text", widget: "string" }
+              - { label: "Submitting Text", name: "submitting_text", widget: "string" }
+
+  - name: "services"
+    label: "Services"
+    files:
+      - label: "Services"
+        name: "services"
+        file: "src/content/services.json"
+        format: "json"
+        fields:
+          - label: "Services"
+            name: "services"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Detail Title", name: "detail_title", widget: "string", required: false }
+              - { label: "Slug", name: "slug", widget: "string" }
+              - { label: "ID", name: "id", widget: "string", required: false }
+              - { label: "Short Description", name: "short_description", widget: "text" }
+              - { label: "Full Description", name: "full_description", widget: "text" }
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Icon Class", name: "icon", widget: "string" }
+              - label: "Bullet Points"
+                name: "bullet_points"
+                widget: "list"
+                field: { label: "Bullet", name: "bullet", widget: "string" }
+              - label: "Process Steps"
+                name: "process_steps"
+                widget: "list"
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Content", name: "content", widget: "text" }
+              - label: "Features"
+                name: "features"
+                widget: "list"
+                required: false
+                field: { label: "Feature", name: "feature", widget: "string" }
+              - { label: "CTA Text", name: "cta_text", widget: "string" }
+              - { label: "CTA Button Text", name: "cta_button_text", widget: "string" }
+              - { label: "CTA Button Link", name: "cta_button_link", widget: "string" }
+              - { label: "Display Order", name: "display_order", widget: "number", value_type: "int" }
+              - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
+
+  - name: "projects"
+    label: "Projects / Our Work"
+    files:
+      - label: "Projects / Our Work"
+        name: "projects"
+        file: "src/content/projects.json"
+        format: "json"
+        fields:
+          - label: "Project Categories"
+            name: "categories"
+            widget: "list"
+            field: { label: "Category", name: "category", widget: "string" }
+          - label: "Featured Projects"
+            name: "featured_projects"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Slug", name: "slug", widget: "string" }
+              - { label: "Location", name: "location", widget: "string", required: false }
+              - { label: "Category", name: "category", widget: "select", options: ["Bathroom Remodel", "Kitchen Remodel", "Restoration Project"], required: false }
+              - { label: "Short Description", name: "short_description", widget: "text", required: false }
+              - { label: "Before Image", name: "before_image", widget: "image", required: false }
+              - { label: "After Image", name: "after_image", widget: "image", required: false }
+              - { label: "Main Image", name: "main_image", widget: "image" }
+              - label: "Gallery Images"
+                name: "gallery_images"
+                widget: "list"
+                required: false
+                field: { label: "Image", name: "image", widget: "image" }
+              - { label: "Featured", name: "featured", widget: "boolean" }
+              - { label: "Display Order", name: "display_order", widget: "number", value_type: "int" }
+          - label: "Before & After Images"
+            name: "before_after_images"
+            widget: "list"
+            field: { label: "Image", name: "image", widget: "image" }
+          - label: "Bathroom Remodel Images"
+            name: "bathroom_images"
+            widget: "list"
+            fields:
+              - { label: "Image", name: "src", widget: "image" }
+              - { label: "Label", name: "label", widget: "string" }
+              - { label: "Display Order", name: "display_order", widget: "number", value_type: "int" }
+          - label: "Kitchen Remodel Images"
+            name: "kitchen_images"
+            widget: "list"
+            fields:
+              - { label: "Image", name: "src", widget: "image" }
+              - { label: "Label", name: "label", widget: "string" }
+              - { label: "Display Order", name: "display_order", widget: "number", value_type: "int" }
+
+  - name: "reviews_faqs_people"
+    label: "Reviews, FAQs, Team, Areas"
+    files:
+      - label: "Testimonials"
+        name: "testimonials"
+        file: "src/content/testimonials.json"
+        format: "json"
+        fields:
+          - label: "Testimonials"
+            name: "testimonials"
+            widget: "list"
+            summary: "{{fields.client_name}}"
+            fields:
+              - { label: "Client Name", name: "client_name", widget: "string" }
+              - { label: "Initials", name: "initials", widget: "string" }
+              - { label: "Review Text", name: "review_text", widget: "text" }
+              - { label: "Short Review Text", name: "short_review_text", widget: "text", required: false }
+              - { label: "Rating", name: "rating", widget: "number", value_type: "int", min: 1, max: 5 }
+              - { label: "Source", name: "source", widget: "string" }
+              - { label: "Date Text", name: "date_text", widget: "string" }
+              - { label: "Display Order", name: "display_order", widget: "number", value_type: "int" }
+      - label: "FAQs"
+        name: "faqs"
+        file: "src/content/faqs.json"
+        format: "json"
+        fields:
+          - label: "FAQs"
+            name: "faqs"
+            widget: "list"
+            summary: "{{fields.question}}"
+            fields:
+              - { label: "Question", name: "question", widget: "string" }
+              - { label: "Answer", name: "answer", widget: "text" }
+              - { label: "Category", name: "category", widget: "string", required: false }
+              - { label: "Display Order", name: "display_order", widget: "number", value_type: "int" }
+      - label: "Team Members"
+        name: "team_members"
+        file: "src/content/team-members.json"
+        format: "json"
+        fields:
+          - label: "Team Members"
+            name: "team_members"
+            widget: "list"
+            summary: "{{fields.name}}"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Position", name: "position", widget: "string" }
+              - { label: "Initials", name: "initials", widget: "string", required: false }
+              - { label: "Photo", name: "photo", widget: "image", required: false }
+              - { label: "Bio", name: "bio", widget: "text", required: false }
+              - { label: "Display Order", name: "display_order", widget: "number", value_type: "int" }
+      - label: "Service Areas"
+        name: "service_areas"
+        file: "src/content/service-areas.json"
+        format: "json"
+        fields:
+          - label: "Service Areas"
+            name: "service_areas"
+            widget: "list"
+            summary: "{{fields.name}}"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Display Order", name: "display_order", widget: "number", value_type: "int" }
+
+  - name: "page_content"
+    label: "Page Content"
+    files:
+      - label: "Financing"
+        name: "financing"
+        file: "src/content/financing.json"
+        format: "json"
+        fields:
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Note", name: "note", widget: "string" }
+          - label: "Financing Options"
+            name: "options"
+            widget: "list"
+            summary: "{{fields.name}}"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Icon Class", name: "icon", widget: "string" }
+              - { label: "Subtitle", name: "subtitle", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Notice Title", name: "notice_title", widget: "string", required: false }
+              - { label: "Notice Text", name: "notice_text", widget: "text", required: false }
+              - label: "Bullets"
+                name: "bullets"
+                widget: "list"
+                field: { label: "Bullet", name: "bullet", widget: "string" }
+              - { label: "Button Text", name: "button_text", widget: "string" }
+              - { label: "Button Link", name: "button_link", widget: "string" }
+          - label: "How It Works"
+            name: "how_it_works"
+            widget: "list"
+            fields:
+              - { label: "Step", name: "step", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Icon Class", name: "icon", widget: "string" }
+          - label: "Features"
+            name: "features"
+            widget: "list"
+            fields:
+              - { label: "Icon Class", name: "icon", widget: "string" }
+              - { label: "Label", name: "label", widget: "string" }
+              - { label: "Subtext", name: "sub", widget: "string" }
+          - label: "Why Choose"
+            name: "why_choose"
+            widget: "list"
+            field: { label: "Benefit", name: "benefit", widget: "string" }
+          - label: "Lenders"
+            name: "lenders"
+            widget: "list"
+            field: { label: "Lender", name: "lender", widget: "string" }
+      - label: "Careers"
+        name: "careers"
+        file: "src/content/careers.json"
+        format: "json"
+        fields:
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Button Text", name: "button_text", widget: "string" }
+          - label: "Perks"
+            name: "perks"
+            widget: "list"
+            fields:
+              - { label: "Icon Class", name: "icon", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+          - label: "Open Positions"
+            name: "open_positions"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Type", name: "type", widget: "string" }
+              - { label: "Location", name: "location", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+              - label: "Requirements"
+                name: "requirements"
+                widget: "list"
+                field: { label: "Requirement", name: "requirement", widget: "string" }
+          - label: "CTA"
+            name: "cta"
+            widget: "object"
+            fields:
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Button Text", name: "button_text", widget: "string" }
+              - { label: "Secondary Button Text", name: "secondary_button_text", widget: "string" }
+              - { label: "Back Link Text", name: "back_link_text", widget: "string" }
+      - label: "Franchise"
+        name: "franchise"
+        file: "src/content/franchise.json"
+        format: "json"
+        fields:
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Highlighted Text", name: "highlighted_text", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Button Text", name: "button_text", widget: "string" }
+          - label: "Stats"
+            name: "stats"
+            widget: "list"
+            fields:
+              - { label: "Value", name: "value", widget: "string" }
+              - { label: "Label", name: "label", widget: "string" }
+          - label: "Opportunity Cards"
+            name: "opportunity_cards"
+            widget: "list"
+            fields:
+              - { label: "Icon Class", name: "icon", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+          - label: "Advantages"
+            name: "advantages"
+            widget: "list"
+            fields:
+              - { label: "Icon Class", name: "icon", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+          - label: "Revenue Streams"
+            name: "revenue_streams"
+            widget: "list"
+            fields:
+              - { label: "Icon Class", name: "icon", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+              - { label: "Image", name: "img", widget: "image" }
+          - label: "Advantage Bullets"
+            name: "advantage_bullets"
+            widget: "list"
+            field: { label: "Bullet", name: "bullet", widget: "text" }
+          - label: "Testimonial"
+            name: "testimonial"
+            widget: "object"
+            fields:
+              - { label: "Text", name: "text", widget: "text" }
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Initial", name: "initial", widget: "string" }
+          - label: "Final CTA"
+            name: "final_cta"
+            widget: "object"
+            fields:
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Primary Button Text", name: "primary_button_text", widget: "string" }
+              - { label: "Secondary Button Text", name: "secondary_button_text", widget: "string" }
+
+  - name: "seo"
+    label: "SEO Settings"
+    files:
+      - label: "SEO Settings"
+        name: "seo"
+        file: "src/content/seo.json"
+        format: "json"
+        fields:
+          - label: "SEO Pages"
+            name: "seo_pages"
+            widget: "list"
+            summary: "{{fields.page_path}}"
+            fields:
+              - { label: "Page Path", name: "page_path", widget: "string" }
+              - { label: "SEO Title", name: "seo_title", widget: "string" }
+              - { label: "SEO Description", name: "seo_description", widget: "text" }
+              - { label: "Open Graph Image", name: "og_image", widget: "image" }
+              - { label: "Canonical URL", name: "canonical_url", widget: "string", required: false }
+              - { label: "Needs Review", name: "needs_review", widget: "boolean" }

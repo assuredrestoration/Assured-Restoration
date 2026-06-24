@@ -1,0 +1,4 @@
+RESEND_API_KEY=your_resend_api_key_here
+CONTACT_TO_EMAIL=caryg@assuredrestoration.com
+FROM_EMAIL=Assured Restoration <noreply@assuredrestoration.com>
+ALLOWED_ORIGIN=http://localhost:5173

@@ -1,0 +1,94 @@
+{
+  "testimonials": [
+    {
+      "client_name": "Craig Stubblefield",
+      "initials": "CS",
+      "review_text": "Remodeled both bathrooms and we love the new look â€” beautiful tile, bigger vanities, and the walk-in shower is a game changer. It was pretty noisy for a couple weeks and communication on the exact finish dates could have been clearer, but the end result feels high-end and the crew left the place spotless. Would recommend.",
+      "short_review_text": "Remodeled both bathrooms and we love the new look â€” beautiful tile, bigger vanities, and the walk-in shower is a game changer.",
+      "rating": 5,
+      "source": "Google",
+      "date_text": "1 day ago",
+      "display_order": 1
+    },
+    {
+      "client_name": "Nancy Burden",
+      "initials": "NB",
+      "review_text": "Added a large patio with a pergola and it completely changed how we use our backyard. It is a great place for our morning coffee. The construction was fast, clean, and the quality is top-notch. We're already planning to add the outdoor kitchen next year.",
+      "short_review_text": "Added a large patio with a pergola and it completely changed how we use our backyard. The quality is top-notch.",
+      "rating": 5,
+      "source": "Google",
+      "date_text": "2 days ago",
+      "display_order": 2
+    },
+    {
+      "client_name": "Ingrid Gibson",
+      "initials": "IG",
+      "review_text": "We added a 12x16 home office/guest room and it turned out well. The natural light and built-ins are exactly what we wanted and it matches the rest of the house nicely. There were a couple of small hiccups along the way, but the team handled it and we're really glad we did the addition.",
+      "short_review_text": "We added a 12x16 home office/guest room and it turned out well. The natural light and built-ins are exactly what we wanted.",
+      "rating": 5,
+      "source": "Google",
+      "date_text": "5 days ago",
+      "display_order": 3
+    },
+    {
+      "client_name": "Tommy Doan",
+      "initials": "TD",
+      "review_text": "Kitchen remodel was seamless. We love the navy cabinets and gold hardware â€” it feels high-end but still warm and inviting. We really appreciate David's guidance on the new layout. Best decision we made for our home!",
+      "short_review_text": "Kitchen remodel was seamless. We love the navy cabinets and gold hardware â€” it feels high-end but still warm and inviting.",
+      "rating": 5,
+      "source": "Google",
+      "date_text": "7 days ago",
+      "display_order": 4
+    },
+    {
+      "client_name": "Virginia Willett",
+      "initials": "VW",
+      "review_text": "I can't stop smiling every time I walk into my new kitchen. They took our dated 90s space and made it bright, modern, and so functional. Communication was excellent the whole way through and they even helped us pick finishes that stayed in budget. 10/10 recommend!",
+      "short_review_text": "I can't stop smiling every time I walk into my new kitchen. They took our dated 90s space and made it bright and modern.",
+      "rating": 5,
+      "source": "Google",
+      "date_text": "10 days ago",
+      "display_order": 5
+    },
+    {
+      "client_name": "Rose Rogers",
+      "initials": "RR",
+      "review_text": "Remodeled the master bath, it is now my favorite room in the house. Walk-in shower with rain head, beautiful tile work, and the vanity is huge. They were so careful with our older home and left everything spotless. The transformation is night and day!",
+      "short_review_text": "Remodeled the master bath, it is now my favorite room in the house. Walk-in shower with rain head, beautiful tile work.",
+      "rating": 5,
+      "source": "Google",
+      "date_text": "11 days ago",
+      "display_order": 6
+    },
+    {
+      "client_name": "Louis Burdulis",
+      "initials": "LB",
+      "review_text": "Would strongly recommend Assured Restoration to my family and friends.",
+      "short_review_text": "Would strongly recommend Assured Restoration to my family and friends.",
+      "rating": 5,
+      "source": "Google",
+      "date_text": "17 days ago",
+      "display_order": 7
+    },
+    {
+      "client_name": "Sharon Brock",
+      "initials": "SB",
+      "review_text": "I loved the bathroom remodeling work by Assured Restoration! They transformed my outdated bathroom into a beautiful, modern space using high-quality materials and expert craftsmanship. The finishing touches were truly impressive.",
+      "short_review_text": "I loved the bathroom remodeling work! They transformed my outdated bathroom into a beautiful, modern space.",
+      "rating": 5,
+      "source": "Google",
+      "date_text": "1 month ago",
+      "display_order": 8
+    },
+    {
+      "client_name": "S S TEST",
+      "initials": "SST",
+      "review_text": "modern space using high-quality materials and expert craftsmanship. The finishing touches were truly impressive.",
+      "short_review_text": " bathroom remodeling work! They transformed my outdated bathroom into a beautiful, modern space.",
+      "rating": 2,
+      "source": "Google",
+      "date_text": "1 month ago",
+      "display_order": 9
+    }
+  ]
+}

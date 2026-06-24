@@ -1,0 +1,40 @@
+{
+  "faqs": [
+    {
+      "question": "Who provides water damage restoration near me in Houston?",
+      "answer": "Assured Restoration & Remodeling provides 24/7 emergency water damage restoration services throughout the Houston area. Their certified technicians respond quickly to mitigate damage, handle cleanup, and fully restore your property while working directly with your insurance company.",
+      "category": "General",
+      "display_order": 1
+    },
+    {
+      "question": "How much does water damage restoration cost in Houston?",
+      "answer": "The cost of water damage restoration depends on the extent of the damage, affected materials, and required repairs. Assured Restoration & Remodeling provides detailed inspections and works with your insurance provider to ensure proper coverage and accurate pricing.",
+      "category": "General",
+      "display_order": 2
+    },
+    {
+      "question": "How long does restoration or remodeling take?",
+      "answer": "Project timelines vary based on the severity of damage and scope of work. Emergency mitigation can begin immediately, while full restoration or remodeling may take several weeks. A dedicated project manager guides the process and keeps timelines clear.",
+      "category": "General",
+      "display_order": 3
+    },
+    {
+      "question": "Do you work with insurance companies?",
+      "answer": "Yes. Assured Restoration & Remodeling specializes in direct insurance claim coordination. We document all damage, communicate with your adjuster, and ensure your claim is handled accurately so you receive the coverage you deserve.",
+      "category": "General",
+      "display_order": 4
+    },
+    {
+      "question": "Are your technicians certified?",
+      "answer": "All of our restoration technicians hold IICRC certification â€” the industry gold standard. Combined with decades of hands-on experience, our team delivers professional results that meet the highest quality and safety standards.",
+      "category": "General",
+      "display_order": 5
+    },
+    {
+      "question": "Do you offer remodeling services in addition to restoration?",
+      "answer": "Absolutely. Beyond emergency restoration, we offer full-service remodeling including kitchen renovations, bathroom remodels, room additions, and custom design builds throughout the Greater Houston area.",
+      "category": "General",
+      "display_order": 6
+    }
+  ]
+}

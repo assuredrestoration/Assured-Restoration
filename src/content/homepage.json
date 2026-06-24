@@ -1,0 +1,98 @@
+{
+  "hero": {
+    "image": "/uploads/assured-restoration/luxurious-restored-suburban-home-interior-houston-remodeling-transformation.jpg",
+    "alt": "Luxurious restored suburban home interior Houston remodeling transformation",
+    "headline_lines": ["Assured", "Restoration"],
+    "highlighted_text": "& Remodeling",
+    "tagline": "From Start To Finish, Rest Assured.",
+    "subheadline": "24/7 Emergency Mitigation & Restoration Services as well as high-quality remodeling â€” including kitchens, bathrooms, extensions and more. Serving the Houston area.",
+    "primary_button_text": "Call for a Free Assessment",
+    "primary_button_link": "tel:7133937077",
+    "secondary_button_text": "Request a Free Assessment",
+    "secondary_button_link": "#contact"
+  },
+  "trust_badges": [
+    { "icon": "ri-time-fill", "label": "24/7 Emergency Service" },
+    { "icon": "ri-building-2-fill", "label": "Over 1,000 Projects" },
+    { "icon": "ri-award-fill", "label": "IICRC Certified" },
+    { "icon": "ri-heart-fill", "label": "Family-Owned & Veteran-Led" }
+  ],
+  "trust_bar": [
+    { "icon": "ri-star-fill", "title": "4.9 Stars", "subtitle": "200+ Google Reviews", "gold": true },
+    { "icon": "ri-heart-fill", "title": "Family-Owned", "subtitle": "Veteran-Led Company" },
+    { "icon": "ri-file-shield-2-fill", "title": "Insurance Specialists", "subtitle": "Claim Coordination" },
+    { "icon": "ri-map-pin-2-fill", "title": "Greater Houston", "subtitle": "Area Coverage" },
+    { "icon": "ri-time-fill", "title": "Available 24/7", "subtitle": "Emergency Response" }
+  ],
+  "services_preview": {
+    "eyebrow": "How We Can Help You",
+    "heading": "How We Can Help You",
+    "description": "We offer 24/7 Emergency Mitigation & Restoration Services as well as high-quality remodeling â€” including kitchens, bathrooms, extensions and more.",
+    "button_text": "Book Our Services",
+    "button_link": "tel:7133937077"
+  },
+  "why_assured": {
+    "eyebrow": "Why Assured",
+    "image": "/uploads/assured-restoration/remodel-reconstruction.jpeg",
+    "image_alt": "Houston's Premier Full-Service Restoration and Remodeling",
+    "heading": "Houston's Premier Full-Service Restoration and Remodeling Service",
+    "features": [
+      { "icon": "ri-tools-fill", "label": "Kitchen & Bathroom Remodeling" },
+      { "icon": "ri-time-fill", "label": "30+ Years of Experience" },
+      { "icon": "ri-alarm-warning-fill", "label": "24/7 Availability" },
+      { "icon": "ri-file-shield-2-fill", "label": "Thorough Insurance Claim Assistance" },
+      { "icon": "ri-money-dollar-circle-fill", "label": "Financing Available" }
+    ],
+    "button_text": "Learn More About Us",
+    "button_link": "/about-us"
+  },
+  "process_steps": [
+    { "number": "01", "icon": "ri-alarm-warning-fill", "title": "Emergency Response", "desc": "Immediate action to stop damage and protect your property. Our certified team arrives fast â€” 24/7, including weekends and holidays.", "image": "/uploads/assured-restoration/emergency-response.jpg" },
+    { "number": "02", "icon": "ri-search-eye-fill", "title": "Inspection & Documentation", "desc": "Detailed assessment aligned with insurance requirements. We document every detail to ensure full coverage and accurate estimates.", "image": "/uploads/assured-restoration/inspection-amp-documentation.webp" },
+    { "number": "03", "icon": "ri-file-shield-2-fill", "title": "Insurance Coordination", "desc": "Direct collaboration with your insurance provider. We handle the paperwork and advocate for your claim from start to finish.", "image": "/uploads/assured-restoration/insurance-coordination.webp" },
+    { "number": "04", "icon": "ri-hammer-fill", "title": "Restoration & Build", "desc": "Expert repairs, reconstruction, and remodeling executed by IICRC-certified professionals with decades of combined experience.", "image": "/uploads/assured-restoration/restoration-amp-build.webp" },
+    { "number": "05", "icon": "ri-checkbox-circle-fill", "title": "Final Walkthrough", "desc": "Ensuring every detail meets the highest standard. We don't close a project until you're completely satisfied with the results.", "image": "/uploads/assured-restoration/final-walkthrough.webp" }
+  ],
+  "why_choose_us": {
+    "eyebrow": "Why Choose Us",
+    "heading": "Why Houston Homeowners Trust Assured Restoration",
+    "image": "/uploads/assured-restoration/water-extraction.jpg",
+    "image_alt": "Assured Restoration team Houston",
+    "stat_value": "1,000+",
+    "stat_label": "Projects Completed",
+    "stat_subtitle": "Across Greater Houston",
+    "reasons": [
+      { "icon": "ri-heart-fill", "title": "Family-Owned, Veteran-Led", "desc": "Built on integrity and service. As a military veteran-owned company, we bring discipline, dedication, and honor to every project." },
+      { "icon": "ri-medal-fill", "title": "Decades of Experience", "desc": "Our team brings decades of combined experience in restoration and remodeling, delivering results that exceed expectations every time." },
+      { "icon": "ri-verified-badge-fill", "title": "IICRC-Certified Professionals", "desc": "All technicians hold IICRC certification â€” the gold standard in restoration â€” ensuring your property is in the most qualified hands." },
+      { "icon": "ri-file-shield-2-fill", "title": "Direct Insurance Handling", "desc": "We work directly with your insurance provider, managing claims and documentation so you can focus on what matters most." },
+      { "icon": "ri-user-star-fill", "title": "Dedicated Project Manager", "desc": "Every job gets a dedicated project manager who keeps you informed, on schedule, and ensures quality at every stage." },
+      { "icon": "ri-building-2-fill", "title": "1,000+ Completed Projects", "desc": "A proven track record with over 1,000 completed projects across Houston â€” from emergency mitigation to full luxury remodels." },
+      { "icon": "ri-award-fill", "title": "BBB Accredited â€” A+ Rating", "desc": "Recognized by the Better Business Bureau with an A+ rating, reflecting our unwavering commitment to customer satisfaction." },
+      { "icon": "ri-home-smile-fill", "title": "Restored Better Than Before", "desc": "Our commitment: restore your property to pre-loss condition or better. We don't just fix damage â€” we elevate your space." }
+    ]
+  },
+  "service_areas_preview": {
+    "eyebrow": "Service Areas",
+    "heading": "Proudly Serving the Greater Houston Area",
+    "description": "Based in Houston, Texas, Assured Restoration & Remodeling serves residential and commercial clients throughout the surrounding communities. Whether you need water damage restoration in Houston, emergency restoration services near Houston, or kitchen and bathroom remodeling in Houston TX â€” we're ready to respond.",
+    "call_button_text": "Call (713) 393-7077",
+    "directions_button_text": "Get Directions"
+  },
+  "testimonials_preview": { "eyebrow": "Google Reviews", "heading": "What Our Clients Say About Us...", "rating": "4.8", "review_count_text": "200+ reviews on Google", "cta_review_text": "Review Us on Google", "cta_call_text": "Call (713) 393-7077" },
+  "faq_preview": { "eyebrow": "FAQ", "heading": "Frequently Asked Questions" },
+  "final_cta": {
+    "background_image": "/uploads/assured-restoration/cta-dark-luxury-texture.jpg",
+    "eyebrow": "Get Started Today",
+    "heading": "Restore Your Property.",
+    "highlighted_text": "Rebuild with Confidence.",
+    "description": "24/7 emergency response and expert remodeling â€” handled from start to finish by Houston's most trusted restoration team.",
+    "call_label": "Call Us 24/7",
+    "email_label": "Email Us",
+    "location_label": "Our Location",
+    "button_text": "Call (713) 393-7077 Now",
+    "success_heading": "Request Received!",
+    "success_text": "Thank you! Our team will contact you shortly. For immediate assistance, call"
+  },
+  "contact_form_content": { "heading": "Request Your Free Assessment", "description": "Fill out the form and we'll get back to you within the hour.", "fields": ["Full Name *", "Phone *", "Email", "Service Needed *", "Message"], "submit_text": "Request Free Assessment", "submitting_text": "Sending..." }
+}

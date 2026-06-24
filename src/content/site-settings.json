@@ -1,0 +1,39 @@
+{
+  "google_reviews_link": "https://www.google.com/maps?cid=13126837293020506792",
+  "emergency_service_text": "24/7 Emergency Service",
+  "copyright_text": "Assured Restoration & Remodeling LLC. All rights reserved.",
+  "social_links": [
+    {
+      "label": "Facebook",
+      "icon": "ri-facebook-fill",
+      "url": "https://www.facebook.com/assuredrestorationtx"
+    },
+    {
+      "label": "Instagram",
+      "icon": "ri-instagram-fill",
+      "url": "https://www.instagram.com/assuredhtx"
+    },
+    {
+      "label": "LinkedIn",
+      "icon": "ri-linkedin-fill",
+      "url": "https://www.linkedin.com/company/assured-restoration-and-remodeling-llc/"
+    }
+  ],
+  "logo": "/uploads/assured-restoration/assured-restoration-amp-remodeling-llc.jpg",
+  "company_name": "Assured Restoration & Remodeling LLC",
+  "phone": "(713) 393-7077",
+  "business_badges": [
+    "IICRC Certified",
+    "BBB Accredited â€” A+ Rating",
+    "Family-Owned & Veteran-Led",
+    "Over 1,000 Projects"
+  ],
+  "indeed_link": "https://www.indeed.com/cmp/Assured-Restoration-and-Remodeling",
+  "address": "13130 Perry Road, Houston, TX 77070",
+  "google_maps_embed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.071280192429!2d-95.56583432439571!3d29.963723922390642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640e9cd5a27dd6b%3A0xb62be4f812d66aa8!2sAssured%20Restoration%20and%20Remodeling!5e1!3m2!1sen!2sca!4v1745867948480!5m2!1sen!2sca",
+  "footer_description": "Houston native, military veteran, family-owned and operated. IICRC Certified. Over 1,000 projects completed throughout the Greater Houston area.",
+  "google_maps_link": "https://www.google.com/maps/place/Assured+Restoration+and+Remodeling/@29.634375,-95.5222091,15z/data=!4m6!3m5!1s0x8640e9cd5a27dd6b:0xb62be4f812d66aa8!8m2!3d29.634375!4d-95.5222091!16s%2Fg%2F11trl33w10?entry=ttu",
+  "phone_href": "tel:7133937077",
+  "email": "assured@assuredrestoration.com",
+  "slogan": "From Start To Finish, Rest Assured."
+}

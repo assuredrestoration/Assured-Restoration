@@ -1,0 +1,100 @@
+{
+  "team_members": [
+    {
+      "name": "Cary & Sheryl Garrett",
+      "position": "Founder & CEO",
+      "initials": "CG",
+      "photo": "",
+      "bio": "",
+      "display_order": 1
+    },
+    {
+      "name": "Lorena Galvan",
+      "position": "Director of Business Development",
+      "initials": "LG",
+      "photo": "",
+      "bio": "",
+      "display_order": 2
+    },
+    {
+      "name": "David Berry",
+      "position": "Reconstruction Manager",
+      "initials": "DB",
+      "photo": "",
+      "bio": "",
+      "display_order": 3
+    },
+    {
+      "name": "Jennifer Cole",
+      "position": "Reconstruction Coordinator",
+      "initials": "JC",
+      "photo": "",
+      "bio": "",
+      "display_order": 4
+    },
+    {
+      "name": "Humberto Ibarra",
+      "position": "Reconstruction Project Manager",
+      "initials": "HI",
+      "photo": "",
+      "bio": "",
+      "display_order": 5
+    },
+    {
+      "name": "Craig Brimmer",
+      "position": "Reconstruction Specialist",
+      "initials": "CB",
+      "photo": "",
+      "bio": "",
+      "display_order": 6
+    },
+    {
+      "name": "Kole Brandon",
+      "position": "Mitigation Manager",
+      "initials": "KB",
+      "photo": "",
+      "bio": "",
+      "display_order": 7
+    },
+    {
+      "name": "Reyes Garza",
+      "position": "Lead Water Technician",
+      "initials": "RG",
+      "photo": "",
+      "bio": "",
+      "display_order": 8
+    },
+    {
+      "name": "Isa Rodriguez",
+      "position": "Mitigation Project Coordinator",
+      "initials": "IR",
+      "photo": "",
+      "bio": "",
+      "display_order": 9
+    },
+    {
+      "name": "Hamied Mohammed",
+      "position": "Lead Water Technician",
+      "initials": "HM",
+      "photo": "",
+      "bio": "",
+      "display_order": 10
+    },
+    {
+      "name": "Daniel Issac",
+      "position": "Lead Water Technician",
+      "initials": "DI",
+      "photo": "",
+      "bio": "",
+      "display_order": 11
+    },
+    {
+      "name": "Andrew Johnson",
+      "position": "Lead Water Technician",
+      "initials": "AJ",
+      "photo": "",
+      "bio": "",
+      "display_order": 12
+    }
+  ]
+}

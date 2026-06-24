@@ -1,0 +1,11 @@
+name = "assured-restoration-cms-oauth"
+main = "src/index.js"
+compatibility_date = "2026-06-08"
+
+# Optionally bind a custom route after the Worker is deployed.
+# routes = [
+#   { pattern = "cms-auth.example.com/*", zone_name = "example.com" }
+# ]
+
+# GITHUB_CLIENT_ID may be stored with `wrangler secret put` as well.
+# Never place GITHUB_CLIENT_SECRET in this file.

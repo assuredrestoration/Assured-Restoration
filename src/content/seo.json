@@ -1,0 +1,60 @@
+{
+  "seo_pages": [
+    {
+      "page_path": "/",
+      "seo_title": "Houston Water Damage Restoration & Remodeling | Assured Restoration LLC",
+      "seo_description": "Assured Restoration & Remodeling LLC â€” Houston's trusted 24/7 emergency water damage restoration, fire restoration, and premium remodeling company. IICRC certified, BBB A+ rated, veteran-owned. Call (713) 393-7077.",
+      "og_image": "/uploads/assured-restoration/luxurious-restored-suburban-home-interior-houston-remodeling-transformation.jpg",
+      "canonical_url": "https://assuredrestoration.com/",
+      "needs_review": false
+    },
+    {
+      "page_path": "/our-services",
+      "seo_title": "Our Services | Assured Restoration",
+      "seo_description": "Placeholder SEO description extracted for CMS planning. Needs review before publishing.",
+      "og_image": "/uploads/assured-restoration/water-extraction.jpg",
+      "canonical_url": "https://assuredrestoration.com/our-services",
+      "needs_review": true
+    },
+    {
+      "page_path": "/our-work",
+      "seo_title": "Our Work | Assured Restoration",
+      "seo_description": "Placeholder SEO description extracted for CMS planning. Needs review before publishing.",
+      "og_image": "/uploads/assured-restoration/fire-restoration.jpeg",
+      "canonical_url": "https://assuredrestoration.com/our-work",
+      "needs_review": true
+    },
+    {
+      "page_path": "/about-us",
+      "seo_title": "About Us | Assured Restoration",
+      "seo_description": "Placeholder SEO description extracted for CMS planning. Needs review before publishing.",
+      "og_image": "/uploads/assured-restoration/water-extraction.jpg",
+      "canonical_url": "https://assuredrestoration.com/about-us",
+      "needs_review": true
+    },
+    {
+      "page_path": "/careers",
+      "seo_title": "Careers | Assured Restoration",
+      "seo_description": "Placeholder SEO description extracted for CMS planning. Needs review before publishing.",
+      "og_image": "/uploads/assured-restoration/fire-restoration.jpeg",
+      "canonical_url": "https://assuredrestoration.com/careers",
+      "needs_review": true
+    },
+    {
+      "page_path": "/franchise",
+      "seo_title": "Franchise | Assured Restoration",
+      "seo_description": "Placeholder SEO description extracted for CMS planning. Needs review before publishing.",
+      "og_image": "/uploads/assured-restoration/franchise-restoration-team.webp",
+      "canonical_url": "https://assuredrestoration.com/franchise",
+      "needs_review": true
+    },
+    {
+      "page_path": "/financing",
+      "seo_title": "Financing | Assured Restoration",
+      "seo_description": "Placeholder SEO description extracted for CMS planning. Needs review before publishing.",
+      "og_image": "/uploads/assured-restoration/cta-dark-luxury-texture.jpg",
+      "canonical_url": "https://assuredrestoration.com/financing",
+      "needs_review": true
+    }
+  ]
+}

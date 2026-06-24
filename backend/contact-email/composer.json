@@ -1,0 +1,13 @@
+{
+  "name": "assured-restoration/contact-email",
+  "description": "PHPMailer backend for the Assured Restoration website contact form.",
+  "type": "project",
+  "require": {
+    "php": ">=7.4",
+    "phpmailer/phpmailer": "^6.10"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  }
+}

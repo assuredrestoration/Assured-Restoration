@@ -1,0 +1,25 @@
+{
+  "categories": ["Recent Projects", "Before & After", "Bathroom Remodels", "Kitchen Remodels", "Restoration Projects"],
+  "featured_projects": [
+    { "title": "New Hampton Drive", "slug": "new-hampton-drive", "location": "", "category": "Bathroom Remodel", "short_description": "", "main_image": "/uploads/assured-restoration/fire-restoration.jpeg", "before_image": "", "after_image": "", "gallery_images": [], "featured": true, "display_order": 1 },
+    { "title": "Colony Lakes", "slug": "colony-lakes", "location": "", "category": "Kitchen Remodel", "short_description": "", "main_image": "/uploads/assured-restoration/water-extraction.jpg", "before_image": "", "after_image": "", "gallery_images": [], "featured": true, "display_order": 2 },
+    { "title": "Tynemouth Drive", "slug": "tynemouth-drive", "location": "", "category": "Bathroom Remodel", "short_description": "", "main_image": "/uploads/assured-restoration/remodel-reconstruction.jpeg", "before_image": "", "after_image": "", "gallery_images": [], "featured": true, "display_order": 3 }
+  ],
+  "before_after_images": ["/uploads/assured-restoration/fire-restoration.jpeg", "/uploads/assured-restoration/water-extraction.jpg", "/uploads/assured-restoration/remodel-reconstruction.jpeg", "/uploads/assured-restoration/fire-restoration.jpeg", "/uploads/assured-restoration/water-extraction.jpg", "/uploads/assured-restoration/remodel-reconstruction.jpeg", "/uploads/assured-restoration/fire-restoration.jpeg", "/uploads/assured-restoration/water-extraction.jpg"],
+  "bathroom_images": [
+    { "src": "/uploads/assured-restoration/fire-restoration.jpeg", "label": "Bathroom Remodel â€“ Modern Tile", "display_order": 1 },
+    { "src": "/uploads/assured-restoration/water-extraction.jpg", "label": "Walk-In Shower Renovation", "display_order": 2 },
+    { "src": "/uploads/assured-restoration/remodel-reconstruction.jpeg", "label": "Master Bath Transformation", "display_order": 3 },
+    { "src": "/uploads/assured-restoration/fire-restoration.jpeg", "label": "Vanity & Tile Upgrade", "display_order": 4 },
+    { "src": "/uploads/assured-restoration/water-extraction.jpg", "label": "Guest Bath Complete Remodel", "display_order": 5 },
+    { "src": "/uploads/assured-restoration/remodel-reconstruction.jpeg", "label": "Custom Shower Design", "display_order": 6 }
+  ],
+  "kitchen_images": [
+    { "src": "/uploads/assured-restoration/fire-restoration.jpeg", "label": "Modern Kitchen Transformation", "display_order": 1 },
+    { "src": "/uploads/assured-restoration/water-extraction.jpg", "label": "Cabinet & Countertop Upgrade", "display_order": 2 },
+    { "src": "/uploads/assured-restoration/remodel-reconstruction.jpeg", "label": "Open Concept Kitchen Remodel", "display_order": 3 },
+    { "src": "/uploads/assured-restoration/fire-restoration.jpeg", "label": "Kitchen Layout Redesign", "display_order": 4 },
+    { "src": "/uploads/assured-restoration/water-extraction.jpg", "label": "High-End Kitchen Build", "display_order": 5 },
+    { "src": "/uploads/assured-restoration/remodel-reconstruction.jpeg", "label": "Full Kitchen Restoration", "display_order": 6 }
+  ]
+}

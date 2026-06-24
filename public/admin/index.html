@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assured Restoration CMS</title>
+    <link rel="icon" href="/uploads/assured-restoration/assured-restoration-amp-remodeling-llc.jpg" />
+    <style>
+      .assured-admin-brand {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 14px;
+        margin: 0 auto 24px;
+        text-align: center;
+      }
+
+      .assured-admin-logo {
+        display: block;
+        width: min(220px, 72vw);
+        max-height: 110px;
+        object-fit: contain;
+      }
+
+      .assured-admin-title {
+        color: #1f2933;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 1.2;
+      }
+    </style>
+  </head>
+  <body>
+    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+    <script>
+      (() => {
+        const brandName = "Assured Restoration";
+        const logoPath = "/uploads/assured-restoration/assured-restoration-amp-remodeling-llc.jpg";
+        const loginPattern = /^Login( with GitHub)?$/i;
+
+        const createBrand = () => {
+          const brand = document.createElement("div");
+          brand.className = "assured-admin-brand";
+          brand.setAttribute("aria-label", brandName);
+          brand.innerHTML = `
+            <img class="assured-admin-logo" src="${logoPath}" alt="${brandName}" />
+            <div class="assured-admin-title">${brandName}</div>
+          `;
+          return brand;
+        };
+
+        const getLoginButton = () =>
+          [...document.querySelectorAll("button, a")].find((element) =>
+            loginPattern.test(element.textContent.trim())
+          );
+
+        const getLoginPanel = (button) => {
+          let current = button.parentElement;
+
+          for (let depth = 0; current && depth < 8; depth += 1) {
+            const text = current.textContent || "";
+
+            if (loginPattern.test(button.textContent.trim()) && text.includes("Login") && current.children.length > 1) {
+              return current;
+            }
+
+            current = current.parentElement;
+          }
+
+          return button.parentElement || document.body;
+        };
+
+        const hideDefaultBranding = (panel, button) => {
+          const defaultBrandPattern = /Decap|Netlify CMS|Content Manager/i;
+
+          [...panel.querySelectorAll("img, svg, h1, h2, h3, p, span, div")].forEach((element) => {
+            if (
+              element.closest(".assured-admin-brand") ||
+              element.contains(button) ||
+              button.contains(element)
+            ) {
+              return;
+            }
+
+            const label = [
+              element.getAttribute("alt"),
+              element.getAttribute("aria-label"),
+              element.getAttribute("title"),
+              element.textContent,
+            ]
+              .filter(Boolean)
+              .join(" ");
+
+            const isDefaultLogo =
+              (element.tagName === "IMG" || element.tagName === "SVG") &&
+              !element.classList.contains("assured-admin-logo");
+
+            if (isDefaultLogo || defaultBrandPattern.test(label)) {
+              element.style.display = "none";
+            }
+          });
+        };
+
+        const applyBranding = () => {
+          const button = getLoginButton();
+
+          if (!button) {
+            return;
+          }
+
+          const panel = getLoginPanel(button);
+
+          if (!panel.querySelector(".assured-admin-brand")) {
+            panel.insertBefore(createBrand(), panel.firstElementChild);
+          }
+
+          hideDefaultBranding(panel, button);
+        };
+
+        const observer = new MutationObserver(applyBranding);
+
+        observer.observe(document.body, {
+          childList: true,
+          subtree: true,
+        });
+
+        applyBranding();
+      })();
+    </script>
+  </body>
+</html>

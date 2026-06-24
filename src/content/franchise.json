@@ -1,0 +1,39 @@
+{
+  "hero": { "eyebrow": "Franchise Opportunity", "heading": "Own a Scalable, High-Margin", "highlighted_text": "Restoration Franchise", "description": "A proven system engineered for long-term performance in an essential industry. Property damage occurs daily â€” tap into consistent demand backed by insurance partnerships.", "image": "/uploads/assured-restoration/franchise-restoration-team.webp", "button_text": "Request Franchise Info" },
+  "stats": [
+    { "value": "$1M+", "label": "Average Annual Revenue Potential" },
+    { "value": "500+", "label": "Projects Completed Annually" },
+    { "value": "24/7", "label": "Emergency Response Revenue" },
+    { "value": "4", "label": "Core Revenue Streams" }
+  ],
+  "opportunity_cards": [
+    { "icon": "ri-bar-chart-grouped-line", "title": "Unlimited Growth Potential", "desc": "Multiple revenue streams and a large addressable market allow franchisees to build high-volume businesses." },
+    { "icon": "ri-money-cny-circle-line", "title": "High-Margin, Low Start-Up", "desc": "Top-performing franchise owners achieve strong gross revenue with lean overhead and scalable operations." },
+    { "icon": "ri-heart-3-line", "title": "Excellent Owner Satisfaction", "desc": "Franchise owners consistently rank high for satisfaction, enjoying the freedom and purpose of the business." }
+  ],
+  "advantages": [
+    { "icon": "ri-building-2-line", "title": "Proven Business Model", "desc": "Over 1,000 successful projects completed. A repeatable system with documented processes." },
+    { "icon": "ri-money-dollar-circle-line", "title": "High-Margin, Recession-Resistant", "desc": "Property damage is non-discretionary. Insurance-backed revenue with strong cash flow." },
+    { "icon": "ri-community-line", "title": "Veteran & Family-Owned Culture", "desc": "Built by a U.S. Military veteran. Values-driven leadership with franchisee support." },
+    { "icon": "ri-award-line", "title": "IICRC Certified & Insured", "desc": "Industry-leading certifications give franchisees credibility and preferred vendor status." },
+    { "icon": "ri-tools-line", "title": "Full Turnkey Support", "desc": "Equipment sourcing, training, marketing, and operations manuals â€” you are not alone." },
+    { "icon": "ri-group-line", "title": "Marketing & Lead Generation", "desc": "National SEO, Google Ads, and insurance network partnerships drive qualified leads." }
+  ],
+  "revenue_streams": [
+    { "icon": "ri-water-flash-line", "title": "Water Damage Restoration", "desc": "The #1 demand driver. Burst pipes, storms, flooding â€” recurring revenue from insurance carriers.", "img": "/uploads/assured-restoration/water-damage-restoration.jpg" },
+    { "icon": "ri-fire-line", "title": "Fire & Smoke Restoration", "desc": "High-value projects with reconstruction bundled. Full-service from mitigation to rebuild.", "img": "/uploads/assured-restoration/fire-smoke-restoration.webp" },
+    { "icon": "ri-bug-line", "title": "Mold Remediation", "desc": "Growing awareness drives demand. Health-driven urgency with strong margins.", "img": "/uploads/assured-restoration/mold-remediation.webp" },
+    { "icon": "ri-home-smile-line", "title": "Remodeling & Reconstruction", "desc": "Kitchens, bathrooms, additions. High-margin custom work that builds recurring referrals.", "img": "/uploads/assured-restoration/remodeling-reconstruction.webp" }
+  ],
+  "advantage_bullets": [
+    "With a strong presence in the Greater Houston area, Assured offers local ownership with proven national expertise.",
+    "Assured Restoration owners have achieved a strong success rate with the franchise model and documented operational systems.",
+    "Franchise owners have expanded into multiple revenue streams, showing confidence in the system's ability to scale.",
+    "Industry-leading training includes hands-on experience with water mitigation, fire restoration, and remodeling best practices.",
+    "Assured is a preferred partner for major insurance carriers, providing a consistent pipeline of qualified leads.",
+    "Backed by a veteran-owned leadership team, franchise owners receive mentorship from operators who have been in the field.",
+    "Never have to say no to a job that is too big or too small â€” full-service capabilities from mitigation to rebuild."
+  ],
+  "testimonial": { "text": "I am passionate about what we do because I enjoy helping people, I enjoy solving projects, and I know we have got work to do. The franchise model gave me the structure to grow without losing the personal touch.", "name": "Cary Garrett", "title": "Founder & Franchise Owner", "initial": "C" },
+  "final_cta": { "heading": "Ready to lead a business your community can count on?", "description": "Join a proven system in an essential industry. Fill out the form above or call our franchise development team directly to discuss available territories.", "primary_button_text": "Request Franchise Info", "secondary_button_text": "Call (713) 393-7077" }
+}

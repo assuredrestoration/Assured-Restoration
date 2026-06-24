@@ -1,0 +1,52 @@
+{
+  "service_areas": [
+    {
+      "name": "Houston",
+      "display_order": 1
+    },
+    {
+      "name": "Sugar Land",
+      "display_order": 2
+    },
+    {
+      "name": "Stafford",
+      "display_order": 3
+    },
+    {
+      "name": "Missouri City",
+      "display_order": 4
+    },
+    {
+      "name": "Katy",
+      "display_order": 5
+    },
+    {
+      "name": "Pearland",
+      "display_order": 6
+    },
+    {
+      "name": "The Woodlands",
+      "display_order": 7
+    },
+    {
+      "name": "Cypress",
+      "display_order": 8
+    },
+    {
+      "name": "Spring",
+      "display_order": 9
+    },
+    {
+      "name": "Humble",
+      "display_order": 10
+    },
+    {
+      "name": "Pasadena",
+      "display_order": 11
+    },
+    {
+      "name": "Friendswood",
+      "display_order": 12
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "services": [
+    {
+      "title": "Water Extraction",
+      "slug": "water-extraction",
+      "id": "water",
+      "icon": "ri-drop-fill",
+      "short_description": "Emergency water extraction, structural drying, damage inspection, and insurance coordination.",
+      "full_description": "At Assured Restoration, we understand how overwhelming water damage can be. That's why we've developed a meticulous, step-by-step process to restore your property efficiently, ensuring minimal disruption and maximum recovery.",
+      "image": "/uploads/assured-restoration/water-extraction.jpg",
+      "bullet_points": [
+        "Emergency water extraction",
+        "Structural drying & dehumidification",
+        "Damage inspection & documentation",
+        "Insurance coordination"
+      ],
+      "process_steps": [
+        {
+          "title": "Immediate Water Damage Containment",
+          "content": "Our top priority is stopping water damage in its tracks. This involves the rapid removal of standing water and sewage, decontaminating affected areas, and deploying industrial-grade dehumidifiers. Immediate action prevents further damage and contamination, while meeting insurance requirements for mitigating losses. Our certified technicians are equipped to remove as much water as possible, minimizing long-term damage."
+        },
+        {
+          "title": "Damage Assessment & Inspection",
+          "content": "Our restoration experts will thoroughly inspect the damage to your home and develop a detailed plan for repairs. We'll document everything needed for insurance purposes, ensuring nothing is overlooked."
+        },
+        {
+          "title": "Insurance Collaboration",
+          "content": "We work directly with your insurance company to ensure all necessary repairs and replacements are covered. Our team ensures that the insurance adjuster includes everything required to restore your home properly."
+        },
+        {
+          "title": "Dedicated Project Management",
+          "content": "You'll be assigned a dedicated Project Manager who will guide you through the entire restoration process. This means you have a single point of contact to answer questions, provide updates, and help with any concerns regarding your insurance claim."
+        },
+        {
+          "title": "Restoration & Completion",
+          "content": "Our skilled technicians will restore your home to its pre-loss conditionâ€”or better. From start to finish, we focus on high-quality repairs and attention to detail, ensuring your home is fully restored and safe for your family."
+        }
+      ],
+      "features": [],
+      "cta_text": "For Emergency Services, Please Call",
+      "cta_button_text": "Call Now for Immediate Help",
+      "cta_button_link": "tel:7133937077",
+      "display_order": 1,
+      "subtitle": "Our Step-by-Step Water Damage Restoration Process"
+    },
+    {
+      "title": "Remodel Reconstruction",
+      "detail_title": "Remodeling and Reconstruction",
+      "slug": "remodel-reconstruction",
+      "id": "remodel",
+      "icon": "ri-tools-fill",
+      "short_description": "Kitchen and bathroom remodeling, room additions, custom design builds, and dedicated project management.",
+      "full_description": "At Assured Restoration, we specialize in creating beautiful, functional spaces through expert remodeling and seamless restoration. Whether you're upgrading your kitchen, expanding your home, or recovering from damage, our team combines craftsmanship, care, and personalized service to bring your vision to life.",
+      "image": "/uploads/assured-restoration/remodel-reconstruction.jpeg",
+      "bullet_points": [
+        "Kitchen & bathroom remodeling",
+        "Room additions & extensions",
+        "Custom design builds",
+        "Dedicated project management"
+      ],
+      "process_steps": [
+        {
+          "title": "Kitchen & Bath Remodeling",
+          "content": "Bring your dream spaces to life with our custom kitchen and bathroom renovations. Whether you're envisioning a modern culinary hub or a spa-like retreat, our team delivers exceptional results. From the initial design to the final touch, our dedicated Project Managers guide you every step of the way, ensuring your vision becomes reality."
+        },
+        {
+          "title": "Room Additions and Extensions",
+          "content": "Expand your home to fit your lifestyle with expertly crafted room additions and patio extensions. With decades of experience, we specialize in seamless expansions and new constructions tailored to your needs, creating spaces that enhance both function and style."
+        },
+        {
+          "title": "Custom Design",
+          "content": "Your ideas are our blueprint. If you can dream it, we'll build itâ€”delivering personalized solutions with impeccable quality and craftsmanship."
+        },
+        {
+          "title": "Comprehensive Restoration",
+          "content": "After damage, we don't just repairâ€”we restore your home to its pre-loss condition or better. Our team works with precision to rebuild your space with care and attention to detail."
+        },
+        {
+          "title": "Insurance Coordination",
+          "content": "We handle the complexities of insurance claims so you don't have to. From filing claims to documenting repairs, we work directly with your insurer to ensure full coverage and a smooth process."
+        },
+        {
+          "title": "Dedicated Project Management",
+          "content": "A single point of contact ensures every step of your restoration is seamlessâ€”from claims assistance to the final coat of paint."
+        },
+        {
+          "title": "Quality and Care",
+          "content": "We take pride in exceeding expectations, delivering repairs and restorations that prioritize both durability and your satisfaction."
+        }
+      ],
+      "features": [
+        "Kitchen Remodeling",
+        "Bathroom Remodeling",
+        "Reconstruction & Repairs"
+      ],
+      "cta_text": "We Offer Financing!",
+      "cta_button_text": "Learn More About Financing",
+      "cta_button_link": "/financing",
+      "display_order": 2,
+      "subtitle": "Transforming Spaces, Restoring Comfort"
+    },
+    {
+      "title": "Fire Restoration",
+      "slug": "fire-restoration",
+      "id": "fire",
+      "icon": "ri-fire-fill",
+      "short_description": "Full property restoration, smoke and soot cleanup, odor elimination, and complete reconstruction.",
+      "full_description": "At Assured Restoration, we know the devastation a fire can cause. Our dedicated team is here to guide you through every step of the fire damage restoration process, restoring your property with care, efficiency, and expertise.",
+      "image": "/uploads/assured-restoration/fire-restoration.jpeg",
+      "bullet_points": [
+        "Full property restoration",
+        "Smoke & soot cleanup",
+        "Odor elimination with Hydroxyl Generators",
+        "Complete reconstruction"
+      ],
+      "process_steps": [
+        {
+          "title": "Immediate Damage Assessment and Containment",
+          "content": "The first 24 hours are crucial in fire damage restoration. Our certified professionals will assess the extent of fire, smoke, and soot damage, identifying salvageable items and areas requiring immediate attention. Quick action minimizes further damage and helps reduce restoration costs."
+        },
+        {
+          "title": "Smoke, Soot, and Residual Moisture Removal",
+          "content": "Smoke and soot can spread acidic residues throughout your property, causing ongoing damage. Additionally, moisture from firefighting efforts can lead to mold or structural weakening. We use advanced equipment to remove harmful residues and excess moisture, protecting your home and belongings."
+        },
+        {
+          "title": "Structural Drying and Odor Elimination",
+          "content": "Lingering odors and corrosive residues can compromise the safety and comfort of your home. Our team employs state-of-the-art drying techniques and eco-friendly odor neutralizers, such as Hydroxyl Generators, to remove bacteria, odors, and volatile organic compounds (VOCs) associated with smoke damage."
+        },
+        {
+          "title": "Ongoing Monitoring and Adjustments",
+          "content": "To ensure effective restoration, we continuously monitor affected areas, making necessary adjustments to optimize drying and decontamination. This diligent process guarantees your property is restored to its pre-fire condition."
+        },
+        {
+          "title": "Final Cleaning, Repair, and Restoration",
+          "content": "Once the property is clean, dry, and safe, we complete repairs to return your home to its original state. From surface cleaning to structural repairs, we provide detailed estimates and ensure quality workmanship every step of the way."
+        }
+      ],
+      "features": [],
+      "cta_text": "For Emergency Services, Please Call",
+      "cta_button_text": "Call Now for Immediate Help",
+      "cta_button_link": "tel:7133937077",
+      "display_order": 3,
+      "subtitle": "Our Step-by-Step Fire Damage Restoration Process"
+    },
+    {
+      "title": "Mold Prevention",
+      "slug": "mold-prevention",
+      "id": "mold",
+      "icon": "ri-shield-check-fill",
+      "short_description": "Rapid water mitigation, industrial-grade dehumidification, antimicrobial treatments, and moisture monitoring.",
+      "full_description": "At Assured Restoration, we prioritize mold prevention by delivering fast, effective water mitigation services. Our water mitigation process is specifically designed to prevent mold growth by rapidly removing excess water and thoroughly drying affected areas before mold can develop. It is imperative to address water damage quickly â€” ideally within the first 24â€“48 hours â€” to prevent mold growth. Prompt action protects your property's structure, indoor air quality, and your family's health.",
+      "image": "/uploads/assured-restoration/water-extraction.jpg",
+      "bullet_points": [
+        "Rapid water mitigation",
+        "Industrial-grade dehumidification",
+        "EPA-approved antimicrobial treatments",
+        "Continuous moisture monitoring"
+      ],
+      "process_steps": [
+        {
+          "title": "Our Water Mitigation Process for Mold Prevention",
+          "content": "Rapid Emergency Response: We provide 24/7 availability so mitigation begins immediately after your call, minimizing the time moisture sits and reducing mold risk.\n\nThorough Water Extraction: Advanced equipment removes standing water from floors, carpets, walls, and subfloors as completely as possible.\n\nEfficient Structural Drying: High-capacity air movers, dehumidifiers, and specialized drying systems are deployed to bring moisture levels back to safe, normal ranges.\n\nContinuous Moisture Monitoring: We use professional meters to track progress and verify that hidden areas (behind walls, under flooring, in cavities) are fully dried.\n\nTargeted Preventive Treatments: Where appropriate, EPA-approved antimicrobial applications help inhibit potential mold growth during the drying phase."
+        },
+        {
+          "title": "See our Water Extraction service for full details",
+          "content": "By focusing on swift water mitigation and drying, we help you avoid the need for mold remediation in the first place. If you suspect water damage, contact us immediately for a free assessment."
+        }
+      ],
+      "features": [],
+      "cta_text": "For Emergency Services, Please Call",
+      "cta_button_text": "Call Now for Immediate Help",
+      "cta_button_link": "tel:7133937077",
+      "display_order": 4,
+      "subtitle": "Fast Mitigation to Prevent Mold Growth"
+    }
+  ]
+}

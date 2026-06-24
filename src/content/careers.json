@@ -1,0 +1,18 @@
+{
+  "hero": { "eyebrow": "Join Our Team", "heading": "Careers at Assured Restoration", "description": "Make a difference with Assured Restoration â€” apply today to help restore homes and rebuild lives with excellence!", "image": "/uploads/assured-restoration/fire-restoration.jpeg", "button_text": "Apply Now on Indeed" },
+  "perks": [
+    { "icon": "ri-team-fill", "title": "Family Culture", "desc": "We treat our team like family â€” just like we treat our clients." },
+    { "icon": "ri-time-fill", "title": "Competitive Pay", "desc": "Industry-competitive wages based on experience and certifications." },
+    { "icon": "ri-award-fill", "title": "IICRC Training", "desc": "We invest in your professional development and certification." },
+    { "icon": "ri-heart-fill", "title": "Veteran-Friendly", "desc": "We are a veteran-led company that welcomes and supports military veterans." },
+    { "icon": "ri-building-2-fill", "title": "Growth Opportunity", "desc": "We are growing fast â€” career advancement is real here." },
+    { "icon": "ri-shield-check-fill", "title": "Purpose-Driven Work", "desc": "Help restore homes and rebuild lives with every project." }
+  ],
+  "open_positions": [
+    { "title": "Lead Water Technician", "type": "Full-Time", "location": "Houston, TX", "desc": "Join our mitigation team as a Lead Water Technician. You'll be responsible for water extraction, structural drying, and guiding junior technicians through the restoration process.", "requirements": ["IICRC certification preferred", "Experience with water extraction equipment", "Valid Texas driver's license", "Ability to work 24/7 on-call rotation"] },
+    { "title": "Reconstruction Project Manager", "type": "Full-Time", "location": "Houston, TX", "desc": "We're looking for an experienced Project Manager to oversee remodeling and reconstruction projects from start to finish, coordinating with clients, subcontractors, and the insurance team.", "requirements": ["3+ years project management experience", "Construction/remodeling background", "Insurance claim experience a plus", "Strong communication skills"] },
+    { "title": "Mitigation Project Coordinator", "type": "Full-Time", "location": "Houston, TX", "desc": "Coordinate mitigation projects, liaise between field technicians and project managers, and ensure projects are completed on time and within scope.", "requirements": ["Prior restoration or construction coordination experience", "Proficiency in project management tools", "Customer-facing communication skills"] },
+    { "title": "Reconstruction Specialist", "type": "Full-Time", "location": "Houston, TX", "desc": "Perform high-quality reconstruction work including drywall, flooring, painting, and finish carpentry on residential restoration and remodeling projects.", "requirements": ["Hands-on construction or trade experience", "Ability to read blueprints", "Attention to detail", "Team player"] }
+  ],
+  "cta": { "heading": "Ready to Make a Difference?", "description": "We're always looking for talented, dedicated professionals to join our growing team. Apply now through Indeed or reach out to us directly.", "button_text": "View All Jobs on Indeed", "secondary_button_text": "Call (713) 393-7077", "back_link_text": "â† Back to About Us" }
+}

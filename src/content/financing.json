@@ -1,0 +1,25 @@
+{
+  "hero": { "heading": "Finance Your Project", "description": "Multiple financing options to fit your budget", "note": "^Rates and terms may vary by lending partner." },
+  "options": [
+    { "name": "Enhancify", "icon": "ri-bar-chart-grouped-fill", "subtitle": "Marketplace Financing", "description": "Compare multiple lender offers in one place. See your personalized rates in 60 seconds with no impact on your credit score.", "bullets": ["Multiple lender offers", "60-second application", "Soft credit pull available", "Funding in 1-5 business days"], "button_text": "See Personal Offers", "button_link": "https://www.enhancify.com/assuredrestoration" },
+    { "name": "Acorn Finance", "icon": "ri-plant-fill", "subtitle": "Home Improvement Loans", "description": "Get pre-qualified for home improvement financing without affecting your credit score. Compare rates from multiple lenders and choose the best option.", "bullets": ["Pre-qualify in minutes", "No impact on credit score", "Multiple lender offers", "Flexible loan terms"], "button_text": "Pre-Qualify Now", "button_link": "https://www.acornfinance.com/pre-qualify/?d=W28I2&utm_medium=web_pre_qual_link_copy_welcome" },
+    { "name": "GreenSky", "icon": "ri-bank-card-fill", "subtitle": "Home Improvement Financing", "description": "Flexible financing plans with promotional APR options. Subject to credit approval. Available exclusively for Assured Restoration clients.", "notice_title": "Invitation Required", "notice_text": "Available by invitation from our team. Contact us to receive your personalized application link.", "bullets": ["Promotional APR options", "Flexible repayment plans", "Subject to credit approval", "Exclusive for our clients"], "button_text": "Call to Request Invitation", "button_link": "tel:7133937077" }
+  ],
+  "how_it_works": [
+    { "step": "1", "title": "Submit a quick application on our partner site.", "icon": "ri-edit-2-fill" },
+    { "step": "2", "title": "Review offers and select the one that fits your needs.", "icon": "ri-search-eye-fill" },
+    { "step": "3", "title": "Finalize with your lender and get funded in 1-5 business days.", "icon": "ri-money-dollar-circle-fill" }
+  ],
+  "features": [
+    { "icon": "ri-percent-fill", "label": "0%-APR", "sub": "Promotional Financing Available" },
+    { "icon": "ri-money-dollar-circle-fill", "label": "$500 â€“ $200,000", "sub": "Request in Funding" },
+    { "icon": "ri-time-fill", "label": "1 Business Day", "sub": "Funding Available As Quickly As" },
+    { "icon": "ri-bar-chart-fill", "label": "7.99%^", "sub": "APR Starting At" },
+    { "icon": "ri-timer-fill", "label": "60-Second", "sub": "Simple Application" },
+    { "icon": "ri-checkbox-circle-fill", "label": "Instant", "sub": "Pre-Approval" },
+    { "icon": "ri-search-eye-fill", "label": "Soft Pull", "sub": "Available" },
+    { "icon": "ri-calendar-fill", "label": "1-12 Year", "sub": "Terms^" }
+  ],
+  "why_choose": ["Turn a large purchase into an affordable monthly payment", "Predictable monthly payments with a set end-date", "No collateral", "Get your project done without weeks of meetings with banks, home appraisals, or paperwork", "Get funding in 1-5 business days"],
+  "lenders": ["Upgrade", "AVANT", "Upstart", "Prosper", "Universal Credit", "OneMain Financial", "achieve", "Reprise Financial", "Rocket Loans", "LendingClub"]
+}
