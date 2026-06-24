@@ -1,10 +1,9 @@
 backend:
   name: github
-  repo: Digital-Age1/Assured-Restoration
-  branch: CMS
-  # Production OAuth proxy:
-  # base_url: https://YOUR-OAUTH-PROXY-DOMAIN
-  # auth_endpoint: auth
+  repo: assuredrestoration/Assured-Restoration
+  branch: main
+  base_url: https://assured-restoration-cms-oauth.assuredrestoration.workers.dev
+  auth_endpoint: auth
 
 local_backend: true
 
