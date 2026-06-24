@@ -132,6 +132,7 @@ async function finishAuthorization(request, env) {
 
 function popupResponse(status, payload, httpStatus, cookie) {
   const message = `authorization:github:${status}:${JSON.stringify(payload)}`;
+  const serializedMessage = JSON.stringify(message).replace(/</g, "\\u003c");
   const headers = new Headers({
     "Content-Type": "text/html; charset=utf-8",
     "Cache-Control": "no-store",
@@ -159,13 +160,25 @@ function popupResponse(status, payload, httpStatus, cookie) {
     <p>Completing CMS login...</p>
     <script>
       (function () {
-        var message = ${JSON.stringify(message)};
-        if (window.opener) {
-          window.opener.postMessage(message, "*");
-          window.close();
-        } else {
-          document.body.textContent = "Login window could not reach the CMS. Close this window and try again.";
+        var finalMessage = ${serializedMessage};
+
+        if (!window.opener) {
+          document.body.textContent = "Login callback opened without the CMS window. Close this page and start login again from /admin/. Authorization message: " + finalMessage;
+          return;
         }
+
+        function receiveMessage(event) {
+          if (event.source !== window.opener) {
+            return;
+          }
+
+          window.removeEventListener("message", receiveMessage);
+          window.opener.postMessage(finalMessage, event.origin);
+          window.close();
+        }
+
+        window.addEventListener("message", receiveMessage);
+        window.opener.postMessage("authorizing:github", "*");
       })();
     </script>
   </body>
